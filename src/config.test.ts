@@ -15,12 +15,12 @@ afterEach(() => {
 describe("getDefaultConfigDir", () => {
   test("uses APPDATA on Windows", () => {
     const dir = getDefaultConfigDir(
-      { APPDATA: "C:\\Users\\Hakan\\AppData\\Roaming" } as NodeJS.ProcessEnv,
-      "C:\\Users\\Hakan",
+      { APPDATA: "C:\\Users\\alice\\AppData\\Roaming" } as NodeJS.ProcessEnv,
+      "C:\\Users\\alice",
       "win32",
     );
 
-    expect(dir).toBe(path.join("C:\\Users\\Hakan\\AppData\\Roaming", "gtasks-mcp"));
+    expect(dir).toBe(path.join("C:\\Users\\alice\\AppData\\Roaming", "gtasks-mcp"));
   });
 
   test("uses XDG config home on Unix-like systems", () => {

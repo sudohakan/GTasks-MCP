@@ -3,7 +3,7 @@
   "configVersion": 1,
   "workspaces": {
     "": {
-      "name": "@modelcontextprotocol/server-gtasks",
+      "name": "gtasks-mcp",
       "dependencies": {
         "@google-cloud/local-auth": "^3.0.1",
         "@modelcontextprotocol/sdk": "1.0.1",

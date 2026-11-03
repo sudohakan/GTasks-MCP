@@ -21,8 +21,8 @@ const tasks = google.tasks("v1");
 
 const server = new Server(
   {
-    name: "example-servers/gtasks",
-    version: "0.1.0",
+    name: "gtasks-mcp",
+    version: "1.1.0",
   },
   {
     capabilities: {

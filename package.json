@@ -1,16 +1,16 @@
 {
-  "name": "@modelcontextprotocol/server-gtasks",
-  "version": "1.0.0",
+  "name": "gtasks-mcp",
+  "version": "1.1.0",
   "description": "MCP server for interacting with Google Tasks",
   "license": "MIT",
   "author": "sudohakan",
-  "homepage": "https://github.com/sudohakan/gtasks-mcp",
+  "homepage": "https://github.com/sudohakan/GTasks-MCP",
   "bugs": {
-    "url": "https://github.com/sudohakan/gtasks-mcp/issues"
+    "url": "https://github.com/sudohakan/GTasks-MCP/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sudohakan/gtasks-mcp.git"
+    "url": "https://github.com/sudohakan/GTasks-MCP.git"
   },
   "type": "module",
   "bin": {

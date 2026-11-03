@@ -30,3 +30,9 @@ jobs:
 
       - name: Test
         run: bun test
+
+      - name: Version check
+        run: |
+          v=$(tr -d '\r\n' < VERSION)
+          grep -q "\"version\": \"$v\"" package.json
+          grep -q "version: \"$v\"" src/index.ts
